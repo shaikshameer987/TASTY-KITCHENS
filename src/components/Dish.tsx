@@ -35,7 +35,9 @@ const Dish = ({ item }: DishProps) => {
       <Card>
         <CardMedia
           component="img"
-          sx={{ height: { xs: "280px", sm: "200px", md: "180px" } }}
+          sx={{
+            height: { xs: "250px", sm: "180px", md: "150px" },
+          }}
           image={item.image_url}
         />
         <CardContent>
