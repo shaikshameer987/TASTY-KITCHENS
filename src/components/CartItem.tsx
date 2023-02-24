@@ -1,7 +1,7 @@
-import { useState, useCallback } from "react";
+import { useState } from "react";
 import { useAppDispatch } from "../store/hook";
 import { removeItem, changeQty } from "../store/cartReducer";
-import { Stack, Box, Typography, IconButton } from "@mui/material";
+import { Stack, Typography, IconButton } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 
