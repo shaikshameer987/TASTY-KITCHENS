@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# This is an Food Ordering Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Main Features Implemented are :-
 
-## Available Scripts
+- Implemented Protected Routes where user will be redirected to signin page if user is not loggedin.
+- Sort restaurants based on rating
+- Pagination of restaurants
+- Adding food items to cart
 
-In the project directory, you can run:
+## Tech And Stacks Used
 
-### `npm start`
+- ReactJs
+- Typescript
+- Redux
+- Material UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Pages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Home Page
 
-### `npm test`
+![Screenshot (508)](https://user-images.githubusercontent.com/20398834/221402332-615bc285-e216-4c3e-b83e-1da0f04fe3dc.png)
+![Screenshot (509)](https://user-images.githubusercontent.com/20398834/221402339-286332b9-8f4d-478b-b887-ab3e65f9536e.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Restaurant Detail Page
 
-### `npm run build`
+![Screenshot (510)](https://user-images.githubusercontent.com/20398834/221402346-f519bae8-637f-4bc4-ac62-d7680cc76e25.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Cart Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (511)](https://user-images.githubusercontent.com/20398834/221402356-b991c47d-e830-4299-bfca-e3a5292bcf1b.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- SignIn Page
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (512)](https://user-images.githubusercontent.com/20398834/221402359-e4240dca-278f-41dc-8345-dbb1c885e1ae.png)
